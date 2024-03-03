@@ -28,7 +28,7 @@ pandoc -L ./luafilter/commacomment.lua
 
 for vim, just append the content of `./after/syntax/markdown.vim` (which is just a `commenstring` option setting) to the file `after/syntax/markdown.vim`.
 
-if you use [Comment.nvim](https://github.com/numToStr/Comment.nvim) plugin, adding following code will make Comment.nvim use `,,` syntax for (un)commenting:
+if you use [Comment.nvim](https://github.com/numToStr/Comment.nvim) plugin, adding following code will say Comment.nvim to use `,,` syntax for (un)commenting:
 
 ```lua
 local ft = require('Comment.ft')

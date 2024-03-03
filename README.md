@@ -26,4 +26,11 @@ pandoc -L ./luafilter/commacomment.lua
     \ -i README.md -o README.pdf -f markdown -t pdf
 ```
 
-for vim, just append the content of `./after/syntax/markdown.vim` to the file `after/syntax/markdown.vim`.
+for vim, just append the content of `./after/syntax/markdown.vim` (which is just a `commenstring` option setting) to the file `after/syntax/markdown.vim`.
+
+if you use [Comment.nvim](https://github.com/numToStr/Comment.nvim) plugin, adding following code will make Comment.nvim use `,,` syntax for (un)commenting:
+
+```lua
+local ft = require('Comment.ft')
+ft.set('markdown', {',,%s,,', ',,%s,,'})
+```

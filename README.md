@@ -19,7 +19,7 @@ i prefer a shorter and easier-to-write syntax. as i never use double commas in m
 usage
 -----
 
-just put the luafilter somewhere and run `pandoc` with `-L [filepath]` option:
+just put the luafilter somewhere and run `pandoc` with `-L ./commacomment.lua` option:
 
 ```bash
 pandoc -L ./luafilter/commacomment.lua 

@@ -11,7 +11,7 @@ why
 in my writings practices, i tend to use comments a lot, for example to send to someone an unfinished text full of comments addressed to myself (when i'm unsure of a formulation, when i cannot chose between synonyms, ...). and the HTML comment tags are sometimes even longer that the comment itself:
 
 ```markdown
-...as Becker demonstrates <!--says?--> in _Art worlds_...
+...as B. shows <!--says?--> in _Art worlds_...
 ```
 
 i prefer a shorter and easier-to-write syntax. as i never use double commas in my texts, and as commas are very accessible in many keyboards, it seems a good option.

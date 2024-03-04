@@ -8,7 +8,7 @@ commarkdowncomment
 why
 ---
 
-in my writings practices, i tend to use comments a lot, for example to send an unfinished version full of comments addressed to myself (when i'm unsure of a formulation, when i cannot chose between synonyms, ...). and the HTML comment tags are sometimes even longer that the comment itself:
+in my writings practices, i tend to use comments a lot, for example to send to someone an unfinished text full of comments addressed to myself (when i'm unsure of a formulation, when i cannot chose between synonyms, ...). and the HTML comment tags are sometimes even longer that the comment itself:
 
 ```markdown
 ...as Becker demonstrates <!--says?--> in _Art worlds_...
